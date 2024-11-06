@@ -21,7 +21,7 @@ module my_addrx::Functions
     }
 
 
-    fun sqaure(num : u64)
+    fun square(num : u64)
     {
         let s=num*num;
         print(&s);
